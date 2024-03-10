@@ -27,10 +27,7 @@ function StatusCard({ apiName }) {
 
     fetchData();
 
-    const intervalId = setInterval(
-      fetchData,
-      updateTime >= 10 ? updateTime : 10 * 1000
-    );
+    const intervalId = setInterval(fetchData, updateTime * 1000);
 
     return () => clearInterval(intervalId);
   }, [updateTime, apiName, getRequest]);
