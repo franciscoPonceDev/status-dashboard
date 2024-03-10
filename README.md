@@ -2,8 +2,6 @@
 
 ## Don't forget to run npm install!!!!
 
-## Don't forget to run npm install!!!!
-
 ## Available Scripts
 
 In the project directory, you can run:
