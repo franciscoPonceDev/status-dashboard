@@ -5,6 +5,7 @@ const DashboardContext = createContext();
 
 export function DashboardProvider({ children }) {
   // change number inside parenthesis to change the default value of status updates.
+  // note that the minimum value is 10 seconds, even if you set it to a lower value.
   const [updateTime, setUpdateTime] = useState(15);
 
   const statusArray = [

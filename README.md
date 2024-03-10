@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+#You can set the update time in context.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Don't forget to run npm install!!!!
 
 ## Available Scripts
 
