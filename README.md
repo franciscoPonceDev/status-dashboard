@@ -1,6 +1,4 @@
-#You can set the update time in context.
-
-## Don't forget to run npm install!!!!
+# You can set the update time in context.
 
 ## Don't forget to run npm install!!!!
 
