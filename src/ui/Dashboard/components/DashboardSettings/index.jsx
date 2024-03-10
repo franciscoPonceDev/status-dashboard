@@ -18,7 +18,6 @@ function DashboardSettings() {
           value={inputValue}
           min={10}
           onChange={(e) => setInputValue(e.target.value)}
-          onKeyDown={(e) => e.preventDefault()}
         />
         <button
           className="ml-2 bg-gray-800 hover:bg-gray-500 text-white font-bold py-1 px-4
